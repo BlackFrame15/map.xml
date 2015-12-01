@@ -4,7 +4,7 @@
  <version>0.0.1</version>
  <objective>Leak lava from the enemy's obsidian core.</objective>
  <authors>
-  <author>WhiteLUnar</author>
+  <author>WhiteLunar</author>
  </authors>
  <teams>
   <team color="Blue" max="16">Blue Team</team>
@@ -68,23 +68,23 @@
  </filters>
  <regions>
   <apply enter="only-green" message="You may not enter enemy base.">
-   <rectangle min="6,-122" max="-5,-129"/>
+   <rectangle min="6,-122" max="-5,-130"/>
   </apply>
   <apply enter="only-blue" message="You may not enter enemy base.">
-   <rectangle min="6,10" max="-5,98"/>
+   <rectangle min="-5,98" max="6,105"/>
   </apply>
   <apply block="deny-all" message="You may not modify the base.">
-   <rectangle min="6,10" max="-5,98"/>
-   <rectangle min="6,-122" max="-5,-129"/>
+   <rectangle min="6,-122" max="-5,-130"/>
+   <rectangle min="-5,98" max="6,105"/>
   </apply>
  </regions>
  <maxbuildheight>40</maxbuildheight>
  <cores material="obsidian" leak="5">
   <core team="blue">
-   <cuboid min="-1,17,61" max="-1,20,63"/>
+   <cuboid min="-2,15,61" max="-1,20,64"/>
   </core>
   <core team="green">
-   <cuboid min="1,17,-85" max="-1,20,-87"/>
+   <cuboid min="1,17,-85" max="-0,15,88"/>
   </core>
  </cores>
  <blockdrops>
