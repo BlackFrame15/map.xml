@@ -52,10 +52,10 @@
    <cuboid min="0.5,10,97" max="0.5,10,97"/>
   </spawn>
   <spawn team="green" yaw="180" kit="green">
-   <cuboid min="0,10,-121" max="0,10,-121"/>
+   <cuboid min="0,10,-125" max="0,10,-125"/>
   </spawn>
   <default yaw="-178">
-   <cuboid min="0,48,-13" max="0,48,-13"/>
+   <cuboid min="0,10,100" max="0,10,100"/>
   </default>
  </spawns>
  <filters>
@@ -81,17 +81,16 @@
  <maxbuildheight>40</maxbuildheight>
  <cores material="obsidian" leak="5">
   <core team="blue">
-   <cuboid min="-2,15,61" max="-1,20,64"/>
+   <cuboid min="0,15,63" max="1,20,61"/>
   </core>
   <core team="green">
-   <cuboid min="1,17,-85" max="-0,15,88"/>
+   <cuboid min="-1,20,-87" max="-0,16,-85"/>
   </core>
  </cores>
  <blockdrops>
   <rule>
    <filter>
     <block>Obsidian</block>
-    <block>Gold Block</block>
     <block>Grass</block>
     <block>Dirt</block>
     <block>Sandstone</block>
