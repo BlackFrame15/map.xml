@@ -49,13 +49,13 @@
  </killreward>
  <spawns>
   <spawn team="blue" yaw="0" kit="blue">
-   <cuboid min="0.5,10,97" max="0.5,10,97"/>
+   <cuboid min="0,10,100" max="0,10,100"/>
   </spawn>
   <spawn team="green" yaw="180" kit="green">
    <cuboid min="0,10,-125" max="0,10,-125"/>
   </spawn>
   <default yaw="-178">
-   <cuboid min="0,10,100" max="0,10,100"/>
+   <cuboid min="0,48,12" max="0,49,12"/>
   </default>
  </spawns>
  <filters>
