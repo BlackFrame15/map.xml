@@ -7,8 +7,8 @@
   <author>WhiteLUnar</author>
  </authors>
  <teams>
-  <team color="blue" max="16">Blue Team</team>
-  <team color="green" max="16">green Team</team>
+  <team color="Blue" max="16">Blue Team</team>
+  <team color="Green" max="16">green Team</team>
  </teams>
  <kits>
   <kit name="spawn">
@@ -64,7 +64,7 @@
    <team>blue</team>
   </filter>
   <filter name="only-green">
-   <team>red</team>
+   <team>green</team>
   </filter>
  </filters>
  <regions>
