@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <map proto="1.3.3">
  <name>The Kingdoms</name>
- <version>0.0.3</version>
+ <version>0.0.1</version>
  <objective>Leak lava from the enemy's obsidian core.</objective>
  <authors>
   <author>WhiteLUnar</author>
@@ -14,17 +14,16 @@
   <kit name="spawn">
    <item slot="0">Stone Sword</item>
    <leggings bind="true">Chainmail Leggings</leggings>
-    <item slot="2">Diamond Pickaxe</item>
-    <item slot="3">WOOD</item>
+    <item slot="1">Diamond Pickaxe</item>
   </kit>
   <kit name="blue" parents="spawn">
-   <item slot="5" amount="64" damage="11">Stained Clay</item>
+   <item slot="2" amount="64" damage="11">Stained Clay</item>
    <helmet color="0066cc" enchantment="PROTECTION_PROJECTILE:2" bind="true">Leather Helmet</helmet>
    <chestplate color="0066cc" bind="true">Leather Chestplate</chestplate>
    <boots color="0066cc" bind="true">Leather Boots</boots>
   </kit>
   <kit name="green" parents="spawn">
-   <item slot="5" amount="64" damage="14">Stained Clay</item>
+   <item slot="2" amount="64" damage="14">Stained Clay</item>
    <helmet color="00cc00" enchantment="PROTECTION_PROJECTILE:2" bind="true">Leather Helmet</helmet>
    <chestplate color="00cd00e" bind="true">Leather Chestplate</chestplate>
    <boots color="00cc00" bind="true">Leather Boots</boots>
@@ -75,10 +74,8 @@
    <rectangle min="6,10" max="-5,98"/>
   </apply>
   <apply block="deny-all" message="You may not modify the base.">
-   <rectangle min="19,-110" max="-19,-116"/>
-   <rectangle min="19,110" max="-19,116"/>
-   <rectangle min="10,-103" max="-10,-123"/>
-   <rectangle min="10,103" max="-10,123"/>
+   <rectangle min="6,10" max="-5,98"/>
+   <rectangle min="6,-122" max="-5,-129"/>
   </apply>
  </regions>
  <maxbuildheight>40</maxbuildheight>
